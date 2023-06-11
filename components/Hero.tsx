@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import {CustomButton} from "./";
+import { CustomButton } from "@/components";
 
-const  Hero =() => {
+const Hero = () => {
   const handleScroll = () => {};
   return (
     <div className="hero">
@@ -30,6 +30,6 @@ const  Hero =() => {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;
